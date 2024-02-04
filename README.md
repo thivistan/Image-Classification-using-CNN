@@ -292,7 +292,7 @@ plt.ylabel('true value');
 ```
 
 
-![png](resources/images/output_14_0.png)
+![png](Resources/images/output_14_0.png)
 
 
 
@@ -315,7 +315,7 @@ plt.show()
 ```
 
 
-![png](resources/images/output_15_0.png)
+![png](Resources/images/output_15_0.png)
 
 
 
@@ -337,7 +337,7 @@ plt.show()
 ```
 
 
-![png](resources/images/output_16_0.png)
+![png](Resources/images/output_16_0.png)
 
 
 
@@ -385,7 +385,7 @@ img = np.expand_dims(img, axis=0)
 ```
 
 
-![png](resources/images/output_19_0.png)
+![png](Resources/images/output_19_0.png)
 
 
 
@@ -431,7 +431,7 @@ plt.imshow(conv2d_6_features[0, :, :, 4], cmap='gray')
 
 
 
-![png](resources/images/output_24_1.png)
+![png](Resources/images/output_24_1.png)
 
 
 ### First Covolution Layer Output
@@ -453,7 +453,7 @@ plt.show()
 ```
 
 
-![png](resources/images/output_26_0.png)
+![png](Resources/images/output_26_0.png)
 
 
 ### Second Covolution Layer Output
@@ -473,7 +473,7 @@ plt.show()
 ```
 
 
-![png](resources/images/output_28_0.png)
+![png](Resources/images/output_28_0.png)
 
 
 ### Model Performance on Unseen Data
@@ -504,7 +504,7 @@ for i in range(columns*rows):
 ```
 
 
-![png](resources/images/output_30_0.png)
+![png](Resources/images/output_30_0.png)
 
 
 
