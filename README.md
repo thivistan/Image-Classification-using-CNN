@@ -116,7 +116,7 @@ classifier.fit_generator(train_set,
 #Some Helpful Instructions:
 
 #finetune you network parameter in last by using low learning rate like 0.00001
-#classifier.save('resources/dogcat_model_bak.h5')
+#classifier.save('Resources/dogcat_model_bak.h5')
 #from tensorflow.keras.models import load_model
 #model = load_model('partial_trained1')
 #100 iteration with learning rate 0.001 and after that 0.0001
@@ -125,7 +125,7 @@ classifier.fit_generator(train_set,
 
 ```python
 from tensorflow.keras.models import load_model
-classifier = load_model('resources/dogcat_model_bak.h5')
+classifier = load_model('Resources/dogcat_model_bak.h5')
 ```
 
 ### Prediction of Single Image
@@ -157,7 +157,7 @@ plt.show()
 ```
 
 
-![png](resources/images/output_10_0.png)
+![png](Resources/images/output_10_0.png)
 
 
 
